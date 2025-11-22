@@ -80,7 +80,7 @@ To compile the file `intro.ts`:
 tsc intro.ts
 ```
 
-Se generará un archivo de extensión `js`, `intro.js`:
+A file with extension `js`, `intro.js` will be generated:
 ```js
 var user = { name: "Nazaret", age: 10 };
 console.log("Nazaret");
@@ -121,7 +121,7 @@ If we do:
 ```ts
 greetings = 6;
 ```
-We get _Type 'number' is not assignable to type 'string'_ in VS Code.
+We get _Type 'number' is not assignable to type 'string'_, in VS Code.
 
 #### number & boolean [top ↑](#)
 **Number:**
